@@ -1,5 +1,18 @@
+machine:
+    services:
+        - docker
+
+dependencies:
+    post:
+        - docker build -t .
+
+test:
+    post:
+        - docker run -d joke/psychosis; sleep 10
+
+
 deployment:
     production:
         branch: master
         commands:
-            - echo "yay"
+            - run_circleCI.sh
