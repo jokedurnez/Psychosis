@@ -4,15 +4,15 @@ machine:
 
 dependencies:
     post:
-        - docker build -t .
+        - docker build -t joke/psychosis .
 
 test:
     post:
-        - docker run -d joke/psychosis; sleep 10
+        - docker run -d joke/psychosis sleep 10
 
 
 deployment:
     production:
         branch: master
         commands:
-            - run_circleCI.sh
+            - .circleci/run_circleCI.sh
