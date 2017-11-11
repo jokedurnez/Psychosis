@@ -81,9 +81,9 @@ RUN conda config --add channels conda-forge && \
 # Install pip
 RUN pip install --upgrade pip && \
     pip install psutil && \
+    pip install sklearn && \
     pip install nilearn && \
     pip install pandas && \
-    pip install sklearn && \
     python -c "from matplotlib import font_manager"
 
 CMD ["/bin/bash"]
