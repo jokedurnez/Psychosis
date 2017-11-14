@@ -70,6 +70,7 @@ RUN curl -sSLO https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_6
     rm Miniconda2-latest-Linux-x86_64.sh
 
 ENV PATH /usr/local/miniconda/bin:$PATH
+ENV PATH /usr/lib/afni/bin:$PATH
 
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
@@ -84,6 +85,7 @@ RUN pip install --upgrade pip && \
     pip install sklearn && \
     pip install nilearn && \
     pip install pandas && \
+    pip install statsmodels && \
     python -c "from matplotlib import font_manager"
 
 CMD ["/bin/bash"]
