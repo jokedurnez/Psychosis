@@ -1,0 +1,20 @@
+module load R/3.3.0
+module load curl/7.49.1
+module load gcc/5.3.0
+module load anaconda/anaconda2
+#module load tensorflow/0.12.1
+source ~/Psychosis/config_sherlock.sh
+source activate my_root
+cd ~/Psychosis/
+jupyter-notebook --no-browser --port=$((30000+RANDOM%29999))
+
+
+PORT=$((30000+RANDOM%29999))
+ssh -t -L 8888:localhost:$PORT jdurnez@sherlock.stanford.edu ssh -L $PORT:localhost:36989 sh-0-31
+
+
+module load py-numpy/1.10.4
+module load py-psycopg2/2.6.1
+module load py-scikit-image/0.11.3
+module load py-scipy/0.17.0
+module load python/2.7.5

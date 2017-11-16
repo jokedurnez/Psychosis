@@ -1,0 +1,847 @@
+Subject
+Data Access Group
+Is this subject a patient, control or drop?
+Date of Ratings Testing
+Date of Neurocognitive Testing
+Date of MRI
+Scan ID
+Date of Blood Draw
+height
+weight
+Subject Status
+Complete?
+Has this instrument been collected?
+Date HSQ
+Arthritis
+What are your symptoms?
+How long have you had these symptoms?
+Chronic Pain
+What are your symptoms?
+How long have you had these symptoms?
+Headaches
+How often do you have headaches?
+How long have headaches been a problem?
+High Cholesterol
+Do you take medication for it?
+Cholesterol Medication:
+How long have you had high cholesterol?
+High triglyceride levels
+Do you take medication for it?
+High triglyceride medication:
+How long have you had high triglyceride levels?
+Stroke
+Were you hospitalized?
+Heart Attack
+Were you hospitalized?
+Heart Disease
+What are your symptoms?
+How long have you had these symptoms?
+High Blood Pressure
+Do you take medication for it?
+Blood Pressure Medication:
+How long have you had high blood pressure?
+Diabetes
+Do you take medication for diabetes?
+Diabetes medication:
+How long have you had diabetes?
+Asthma
+How long have you had asthma?
+Lung Disease
+What are your symptoms?
+How long have you had these symptoms?
+Thyroid Disease
+Do you take medication for your thyroid?
+Thyroid medication:
+How long have you had thyroid disease?
+Multiple Sclerosis
+How long have you been diagnosed with MS?
+Parkinson's Disease
+How long have you been diagnosed with Parkinson's?
+Cancer
+What type/stage?
+How long have you had cancer?
+Neurosurgery or Brain Tumor
+How long were you hospitalized?
+Stuttering
+How long have you had this problem?
+Psychiatric Treatment
+What type of treatment?
+How long have you had psychiatric problem?
+Do you take medication for psychiatric problem?
+Are you currently in treatment?
+Do you wear glasses?
+Have you ever had a seizure or convulsion after age 12?
+Have you ever had a concussion?
+Have you ever lost consciousness for more than 5 minutes?
+Have you been told you have an learning disability?
+Are you taking birth control or injections right now?
+Do you think you are pregnant now?
+Have you ever smoked cigarettes, cigars or a pipe everyday for a month or more?
+Do you currently smoke?
+How often do you drink?
+Have you ever felt as if you had to cut down on your drinking?
+Have people annoyed you by criticizing your drinking?
+Have you ever felt bad or guilty about your drinking?
+Have you ever had a drink first thing in the morning?
+What is the maximum drinks in 24 hrs?
+How old were you when you had your first drink that was not provided by your parents?
+Are you currently taking any medications, including anything over the counter?
+Medication 1:
+Medication 2:
+Medication 3:
+Medication 4:
+Medication 5:
+Medication 6:
+Medication 7:
+Medication 8:
+Medication 9:
+Medication 10:
+Method of ascertaining medications:
+Years of Education
+Mother's Education
+Father's education
+In the past 12 months, how many have you been employed?
+Are you employed now?
+Do you work full or part time?
+What type of job do you have?
+Unemployed but looking for a job?
+Retired?
+Disabled?
+Are you on SSI/SSD?
+How long have you been on SSI/SSD?
+Marital Status
+How many children?
+How many grandchildren?
+How do you spend free time?
+How do you rate your functioning in the home at the present time?
+How do you rate your functioning in social settings at the present time?
+How do you rate your functioning in work settings at the present time?
+How do you rate your functioning in school settings at the present time?
+Which hand do you use to write?
+Which hand do you use to draw?
+Which hand do you use to throw a ball?
+Which hand do you use to cut with scissors?
+Which hand do you use with your toothbrush?
+Which hand do you use with a knife?
+Which hand do you use a spoon?
+Which hand do you use a broom (upper hand)?
+Which hand do you strike a match?
+Which hand do you use to open a box?
+Complete?
+Has this instrument been collected?
+Suspended
+Age of First Suspension
+Age of last suspension
+Suspension total
+Ticketed
+Age of first ticket
+Age of last ticket
+Ticket total
+Expelled
+Age of first expulsion
+Age of last expulsion
+Expelled Total
+Alternative School
+Age of first alternative school placement
+Age of last alternative school placement
+Alternative School Total
+Bootcamp
+Age of first bootcamp
+Age of last bootcamp
+Bootcamp total
+Have you ever been arrested?
+Violent crime?
+Age of first violent crime arrest
+Age of last violent crime arrest
+Violent Crime total
+Property?
+Age of first property arrest
+Age of last property arrest
+Total property arrests
+Sexual Offense?
+Age of first sexual offense
+Age of last sexual offense
+Total sexual offense
+Drug Law
+Age of first drug law offense
+Age of last drug law offense
+Total drug law violations
+Traffic Law
+Age of first traffic law violation
+Age of last traffic law violation
+Total traffic law violations
+Weapons law violation
+Age of first weapons violation
+Age of last weapons violation
+Total weapons violations
+Other crimes
+Age of first other crime
+Age of last other crime
+Other crime total
+Were you first seen by a mental health professional as a consequence of a legal issue?
+At what age were you seen?
+Was it while you were in custody?
+Convictions
+Misdemeanor?
+Age of first misdemeanor
+Age of last misdemeanor
+Total misdemeanor
+Felony
+Age of first felony
+Age of last felony
+Total felony
+Have you ever been incarcerated?
+What type of facility? (choice=Juvenile Detention)
+What type of facility? (choice=County Jail)
+What type of facility? (choice=State Prison)
+What type of facility? (choice=Federal Prison)
+How long were you incarcerated?
+Have you been on probation?
+Has it been succesfully completed?
+Have you been on parole?
+Has parole been successfully completed?
+Complete?
+Has this instrument been collected?
+Vocabulary Raw Score
+Vocabulary T-Score
+Matrix Reasoning Raw Score
+Matrix Reasoning T-Score
+Sum of T-Scores
+Full-2 IQ
+Complete?
+Has this instrument been collected?
+Rater
+Somatic Concerns
+Anxiety
+Depression
+Guilt
+Hostility
+Suspiciousness
+Unusual Thought Content
+Grandiosity
+Hallucinations
+Disorientation
+Conceptual Disorganization
+Excitement
+Motor Retardation
+Blunted Affect
+Tension
+Mannerisms and Posturing
+Uncooperativeness
+Emotional Withdrawal
+Suicidality
+Self-Neglect
+Bizarre Behaviors
+Elevated Mood
+Motor Hyperactivity
+Distractability
+Complete?
+Has this instrument been collected?
+Depressed Mood
+Feelings of Guilt
+Suicide
+Insomnia Early
+Insomnia Middle
+Insomnia Late
+Work and Activities
+Retardation: Psychomotor
+Agitation
+Anxiety: Psychological
+Anxiety: Somatic
+Somatic Symtpoms: Gastrointestinal
+Somatic Symptoms General
+Genital Symptoms
+Hypochondriasis
+Loss of Weight
+Insight
+Diurnal Variation Part A: Marked Difference A.M. or P.M.
+Diurnal Variation Part B: Severity
+Depersonalization
+Paranoid Symptoms
+Obsessional and Compulsive Symptoms
+HAMD Total Score
+Complete?
+Has this instrument been collected?
+Elevated Mood
+Increased Motor Activity Energy
+Sexual Interest
+Sleep
+Irritability
+Speech
+Language-Thought Disorder
+Content
+Disruptive-Aggressive Behavior
+Appearance
+Insight
+YMRS Total Score
+Complete?
+Has this instrument been collected?
+Delusions (choice=Paranoid)
+Delusions (choice=Non-Paranoid)
+Delusions (choice=Grandiose)
+Delusions (choice=Somatic)
+Delusions (choice=Religious)
+Delusions (choice=Nihilistic)
+Delusions (choice=Delusions accompanied by hallucinations for one week)
+Duration of Delusions
+Severity of Delusions
+Duration of Paranoia
+Severity of Paranoia
+Duration of Hallucinations
+Severity of Hallucinations
+Control Delusions (choice=Thought Control)
+Control Delusions (choice=Thought Withdrawal)
+Control Delusions (choice=Control of thoughts and actions)
+Duration of control delusions
+Severity of control delusions
+Duration of bizarre delusions
+Severity of bizarre delusions
+Conversing, commenting or continus hallucinations (choice=voices conversing)
+Conversing, commenting or continus hallucinations (choice=voices commenting)
+Conversing, commenting or continus hallucinations (choice=continuous throughout the day)
+Duration of ccc hallucinations
+Severity of ccc hallucinations
+Abnormal perception of thought (choice=thought broadcasting)
+Abnormal perception of thought (choice=audible thoughts)
+Abnormal perception of thought (choice=thought echo)
+Duration of abnormal thought
+Severity of abnormal thought
+Psychosis (without mood) (choice=after mania)
+Psychosis (without mood) (choice=after depression)
+Psychosis (without mood) (choice=neither)
+Duration of Psychosis
+Severity of psychosis
+Duration of Blunted Affect
+Severity of blunted affect
+Duration of poverty of speech
+Severity of poverty of speech
+Duration of formal thought disoder
+Severity of formal thought disorder
+Duration of bizarre behavior
+Severity of bizarre behavior
+Duration of depression
+Severity of depression
+Maximum of 9 depressive features concurrent for 2+weeks
+Duration of mania
+Severity of mania
+Maximum of 7 manic features concurrent for 2+weeks
+Concurrent Depressed Mood and Delusion or Hallucinations (choice=Guilt)
+Concurrent Depressed Mood and Delusion or Hallucinations (choice=Nihilism)
+Concurrent Depressed Mood and Delusion or Hallucinations (choice=Suicide)
+Concurrent Depressed Mood and Delusion or Hallucinations (choice=Disease (non bizarre))
+Duration of Depression + Hallucinations or Delusions
+Severity of Depression + Hallucinations or Delusions
+Concurrent Mania Mood and Delusion or Hallucinations (choice=importance or power)
+Concurrent Mania Mood and Delusion or Hallucinations (choice=special relationship or mission or god)
+Duration of Mania + Hallucinations or Delusions
+Severity of Mania + Hallucinations or Delusions
+Deterioration
+Complicating Features (choice=substance abuse)
+Complicating Features (choice=organic)
+Complicating Features (choice=atypical features)
+Complicating Features (choice=personality disorder)
+Complicating Features (choice=dissociative)
+Severity of Complicating Features
+Quality of Information
+Complete?
+Has this instrument been collected?
+Alcohol Use Family (choice=Spouse)
+Alcohol Use Family (choice=Bio M)
+Alcohol Use Family (choice=Bio F)
+Alcohol Use Family (choice=Bro 1)
+Alcohol Use Family (choice=Bro 2)
+Alcohol Use Family (choice=Bro 3)
+Alcohol Use Family (choice=Bro 4)
+Alcohol Use Family (choice=Bro 5)
+Alcohol Use Family (choice=Sis 1)
+Alcohol Use Family (choice=Sis 2)
+Alcohol Use Family (choice=Sis 3)
+Alcohol Use Family (choice=Sis 4)
+Alcohol Use Family (choice=Sis 5)
+Alcohol Use Family (choice=Chi 1)
+Alcohol Use Family (choice=Chi 2)
+Alcohol Use Family (choice=Chi 3)
+Alcohol Use Family (choice=Chi 4)
+Alcohol Use Family (choice=H Bro 1)
+Alcohol Use Family (choice=H Bro 2)
+Alcohol Use Family (choice=H Bro 3)
+Alcohol Use Family (choice=H Sis 1)
+Alcohol Use Family (choice=H Sis 2)
+Alcohol Use Family (choice=H Sis 3)
+Drug Use Family (choice=Spouse)
+Drug Use Family (choice=Bio M)
+Drug Use Family (choice=Bio F)
+Drug Use Family (choice=Bro 1)
+Drug Use Family (choice=Bro 2)
+Drug Use Family (choice=Bro 3)
+Drug Use Family (choice=Bro 4)
+Drug Use Family (choice=Bro 5)
+Drug Use Family (choice=Sis 1)
+Drug Use Family (choice=Sis 2)
+Drug Use Family (choice=Sis 3)
+Drug Use Family (choice=Sis 4)
+Drug Use Family (choice=Sis 5)
+Drug Use Family (choice=Chi 1)
+Drug Use Family (choice=Chi 2)
+Drug Use Family (choice=Chi 3)
+Drug Use Family (choice=Chi 4)
+Drug Use Family (choice=H Bro 1)
+Drug Use Family (choice=H Bro 2)
+Drug Use Family (choice=H Bro 3)
+Drug Use Family (choice=H Sis 1)
+Drug Use Family (choice=H Sis 2)
+Drug Use Family (choice=H Sis 3)
+Depression Family (choice=Spouse)
+Depression Family (choice=Bio M)
+Depression Family (choice=Bio F)
+Depression Family (choice=Bro 1)
+Depression Family (choice=Bro 2)
+Depression Family (choice=Bro 3)
+Depression Family (choice=Bro 4)
+Depression Family (choice=Bro 5)
+Depression Family (choice=Sis 1)
+Depression Family (choice=Sis 2)
+Depression Family (choice=Sis 3)
+Depression Family (choice=Sis 4)
+Depression Family (choice=Sis 5)
+Depression Family (choice=Chi 1)
+Depression Family (choice=Chi 2)
+Depression Family (choice=Chi 3)
+Depression Family (choice=Chi 4)
+Depression Family (choice=H Bro 1)
+Depression Family (choice=H Bro 2)
+Depression Family (choice=H Bro 3)
+Depression Family (choice=H Sis 1)
+Depression Family (choice=H Sis 2)
+Depression Family (choice=H Sis 3)
+Mania Family (choice=Spouse)
+Mania Family (choice=Bio M)
+Mania Family (choice=Bio F)
+Mania Family (choice=Bro 1)
+Mania Family (choice=Bro 2)
+Mania Family (choice=Bro 3)
+Mania Family (choice=Bro 4)
+Mania Family (choice=Bro 5)
+Mania Family (choice=Sis 1)
+Mania Family (choice=Sis 2)
+Mania Family (choice=Sis 3)
+Mania Family (choice=Sis 4)
+Mania Family (choice=Sis 5)
+Mania Family (choice=Chi 1)
+Mania Family (choice=Chi 2)
+Mania Family (choice=Chi 3)
+Mania Family (choice=Chi 4)
+Mania Family (choice=H Bro 1)
+Mania Family (choice=H Bro 2)
+Mania Family (choice=H Bro 3)
+Mania Family (choice=H Sis 1)
+Mania Family (choice=H Sis 2)
+Mania Family (choice=H Sis 3)
+Schizophrenia Family (choice=Spouse)
+Schizophrenia Family (choice=Bio M)
+Schizophrenia Family (choice=Bio F)
+Schizophrenia Family (choice=Bro 1)
+Schizophrenia Family (choice=Bro 2)
+Schizophrenia Family (choice=Bro 3)
+Schizophrenia Family (choice=Bro 4)
+Schizophrenia Family (choice=Bro 5)
+Schizophrenia Family (choice=Sis 1)
+Schizophrenia Family (choice=Sis 2)
+Schizophrenia Family (choice=Sis 3)
+Schizophrenia Family (choice=Sis 4)
+Schizophrenia Family (choice=Sis 5)
+Schizophrenia Family (choice=Chi 1)
+Schizophrenia Family (choice=Chi 2)
+Schizophrenia Family (choice=Chi 3)
+Schizophrenia Family (choice=Chi 4)
+Schizophrenia Family (choice=H Bro 1)
+Schizophrenia Family (choice=H Bro 2)
+Schizophrenia Family (choice=H Bro 3)
+Schizophrenia Family (choice=H Sis 1)
+Schizophrenia Family (choice=H Sis 2)
+Schizophrenia Family (choice=H Sis 3)
+Antisocial Personality Family (choice=Spouse)
+Antisocial Personality Family (choice=Bio M)
+Antisocial Personality Family (choice=Bio F)
+Antisocial Personality Family (choice=Bro 1)
+Antisocial Personality Family (choice=Bro 2)
+Antisocial Personality Family (choice=Bro 3)
+Antisocial Personality Family (choice=Bro 4)
+Antisocial Personality Family (choice=Bro 5)
+Antisocial Personality Family (choice=Sis 1)
+Antisocial Personality Family (choice=Sis 2)
+Antisocial Personality Family (choice=Sis 3)
+Antisocial Personality Family (choice=Sis 4)
+Antisocial Personality Family (choice=Sis 5)
+Antisocial Personality Family (choice=Chi 1)
+Antisocial Personality Family (choice=Chi 2)
+Antisocial Personality Family (choice=Chi 3)
+Antisocial Personality Family (choice=Chi 4)
+Antisocial Personality Family (choice=H Bro 1)
+Antisocial Personality Family (choice=H Bro 2)
+Antisocial Personality Family (choice=H Bro 3)
+Antisocial Personality Family (choice=H Sis 1)
+Antisocial Personality Family (choice=H Sis 2)
+Antisocial Personality Family (choice=H Sis 3)
+Anxiety Family (choice=Spouse)
+Anxiety Family (choice=Bio M)
+Anxiety Family (choice=Bio F)
+Anxiety Family (choice=Bro 1)
+Anxiety Family (choice=Bro 2)
+Anxiety Family (choice=Bro 3)
+Anxiety Family (choice=Bro 4)
+Anxiety Family (choice=Bro 5)
+Anxiety Family (choice=Sis 1)
+Anxiety Family (choice=Sis 2)
+Anxiety Family (choice=Sis 3)
+Anxiety Family (choice=Sis 4)
+Anxiety Family (choice=Sis 5)
+Anxiety Family (choice=Chi 1)
+Anxiety Family (choice=Chi 2)
+Anxiety Family (choice=Chi 3)
+Anxiety Family (choice=Chi 4)
+Anxiety Family (choice=H Bro 1)
+Anxiety Family (choice=H Bro 2)
+Anxiety Family (choice=H Bro 3)
+Anxiety Family (choice=H Sis 1)
+Anxiety Family (choice=H Sis 2)
+Anxiety Family (choice=H Sis 3)
+Mental Health Care Family (choice=Spouse)
+Mental Health Care Family (choice=Bio M)
+Mental Health Care Family (choice=Bio F)
+Mental Health Care Family (choice=Bro 1)
+Mental Health Care Family (choice=Bro 2)
+Mental Health Care Family (choice=Bro 3)
+Mental Health Care Family (choice=Bro 4)
+Mental Health Care Family (choice=Bro 5)
+Mental Health Care Family (choice=Sis 1)
+Mental Health Care Family (choice=Sis 2)
+Mental Health Care Family (choice=Sis 3)
+Mental Health Care Family (choice=Sis 4)
+Mental Health Care Family (choice=Sis 5)
+Mental Health Care Family (choice=Chi 1)
+Mental Health Care Family (choice=Chi 2)
+Mental Health Care Family (choice=Chi 3)
+Mental Health Care Family (choice=Chi 4)
+Mental Health Care Family (choice=H Bro 1)
+Mental Health Care Family (choice=H Bro 2)
+Mental Health Care Family (choice=H Bro 3)
+Mental Health Care Family (choice=H Sis 1)
+Mental Health Care Family (choice=H Sis 2)
+Mental Health Care Family (choice=H Sis 3)
+Psychiatric Hospitalization Family (choice=Spouse)
+Psychiatric Hospitalization Family (choice=Bio M)
+Psychiatric Hospitalization Family (choice=Bio F)
+Psychiatric Hospitalization Family (choice=Bro 1)
+Psychiatric Hospitalization Family (choice=Bro 2)
+Psychiatric Hospitalization Family (choice=Bro 3)
+Psychiatric Hospitalization Family (choice=Bro 4)
+Psychiatric Hospitalization Family (choice=Bro 5)
+Psychiatric Hospitalization Family (choice=Sis 1)
+Psychiatric Hospitalization Family (choice=Sis 2)
+Psychiatric Hospitalization Family (choice=Sis 3)
+Psychiatric Hospitalization Family (choice=Sis 4)
+Psychiatric Hospitalization Family (choice=Sis 5)
+Psychiatric Hospitalization Family (choice=Chi 1)
+Psychiatric Hospitalization Family (choice=Chi 2)
+Psychiatric Hospitalization Family (choice=Chi 3)
+Psychiatric Hospitalization Family (choice=Chi 4)
+Psychiatric Hospitalization Family (choice=H Bro 1)
+Psychiatric Hospitalization Family (choice=H Bro 2)
+Psychiatric Hospitalization Family (choice=H Bro 3)
+Psychiatric Hospitalization Family (choice=H Sis 1)
+Psychiatric Hospitalization Family (choice=H Sis 2)
+Psychiatric Hospitalization Family (choice=H Sis 3)
+Suicide Attempt Family (choice=Spouse)
+Suicide Attempt Family (choice=Bio M)
+Suicide Attempt Family (choice=Bio F)
+Suicide Attempt Family (choice=Bro 1)
+Suicide Attempt Family (choice=Bro 2)
+Suicide Attempt Family (choice=Bro 3)
+Suicide Attempt Family (choice=Bro 4)
+Suicide Attempt Family (choice=Bro 5)
+Suicide Attempt Family (choice=Sis 1)
+Suicide Attempt Family (choice=Sis 2)
+Suicide Attempt Family (choice=Sis 3)
+Suicide Attempt Family (choice=Sis 4)
+Suicide Attempt Family (choice=Sis 5)
+Suicide Attempt Family (choice=Chi 1)
+Suicide Attempt Family (choice=Chi 2)
+Suicide Attempt Family (choice=Chi 3)
+Suicide Attempt Family (choice=Chi 4)
+Suicide Attempt Family (choice=H Bro 1)
+Suicide Attempt Family (choice=H Bro 2)
+Suicide Attempt Family (choice=H Bro 3)
+Suicide Attempt Family (choice=H Sis 1)
+Suicide Attempt Family (choice=H Sis 2)
+Suicide Attempt Family (choice=H Sis 3)
+Suicide Complete Family (choice=Spouse)
+Suicide Complete Family (choice=Bio M)
+Suicide Complete Family (choice=Bio F)
+Suicide Complete Family (choice=Bro 1)
+Suicide Complete Family (choice=Bro 2)
+Suicide Complete Family (choice=Bro 3)
+Suicide Complete Family (choice=Bro 4)
+Suicide Complete Family (choice=Bro 5)
+Suicide Complete Family (choice=Sis 1)
+Suicide Complete Family (choice=Sis 2)
+Suicide Complete Family (choice=Sis 3)
+Suicide Complete Family (choice=Sis 4)
+Suicide Complete Family (choice=Sis 5)
+Suicide Complete Family (choice=Chi 1)
+Suicide Complete Family (choice=Chi 2)
+Suicide Complete Family (choice=Chi 3)
+Suicide Complete Family (choice=Chi 4)
+Suicide Complete Family (choice=H Bro 1)
+Suicide Complete Family (choice=H Bro 2)
+Suicide Complete Family (choice=H Bro 3)
+Suicide Complete Family (choice=H Sis 1)
+Suicide Complete Family (choice=H Sis 2)
+Suicide Complete Family (choice=H Sis 3)
+Tobacco Family (choice=Spouse)
+Tobacco Family (choice=Bio M)
+Tobacco Family (choice=Bio F)
+Tobacco Family (choice=Bro 1)
+Tobacco Family (choice=Bro 2)
+Tobacco Family (choice=Bro 3)
+Tobacco Family (choice=Bro 4)
+Tobacco Family (choice=Bro 5)
+Tobacco Family (choice=Sis 1)
+Tobacco Family (choice=Sis 2)
+Tobacco Family (choice=Sis 3)
+Tobacco Family (choice=Sis 4)
+Tobacco Family (choice=Sis 5)
+Tobacco Family (choice=Chi 1)
+Tobacco Family (choice=Chi 2)
+Tobacco Family (choice=Chi 3)
+Tobacco Family (choice=Chi 4)
+Tobacco Family (choice=H Bro 1)
+Tobacco Family (choice=H Bro 2)
+Tobacco Family (choice=H Bro 3)
+Tobacco Family (choice=H Sis 1)
+Tobacco Family (choice=H Sis 2)
+Tobacco Family (choice=H Sis 3)
+Complete?
+Has this instrument been collected?
+I didn't have enough to eat.
+I knew there was someone to take care of me and protect me.
+People in my family called me things like 'stupid', 'lazy' 'ugly'.
+My parents were too drunk or high to take care of the family.
+There was someone in my family who helped me feel important or special.
+I had to wear dirty clothes.
+I felt loved.
+I thought my parents wished I had never been born.
+I got hit so hard by someone in my family that I had to go see a doctor or go to the hospital.
+There was nothing I wanted to change about my family.
+People in my family hit me so hard that it left me with bruises or marks.
+I was punished with a belt, a board, a cord or some other hard object.
+People in my family looked out for each other.
+People in my family said hurtful or insulting things to me.
+I believe that I was physically abused.
+I had the perfect childhood.
+I got hit or beaten so badly that it was noticed by someone like a teacher, neighbor or doctor.
+I felt that someone in my family hated me.
+People in my family felt close to each other.
+Someone tried to touch me in a sexual way or tried to make me touch them.
+Someone threatened to hurt me or tell lies about me unless I did something sexual with them.
+I had the best family in the world.
+Someone tried to make me do sexaul things or watch sexual things.
+Someone molested me.
+I believe I was emotionally abused.
+There was someone to take me to the doctor if I needed it.
+I believe I was sexually abused.
+My family was a source of strength and support.
+Complete?
+Was this form collected?
+CRE Q1: Has anyone ever tried to take something directly from you by using force or the threat of force, such as a stick-up or mugging?
+Number of times for CRE Q1
+Approximate ages for CRE Q1:
+CRE Q2: Has anyone ever attempted to rob you or actually robbed you (i.e., stolen your personal belongings)?
+Number of times for CRE Q2
+Approximate ages for CRE Q2:
+CRE Q3: Has anyone ever attempted to or succeeded in breaking into your home when you were not there?
+Number of times for CRE Q3:
+Approximate ages for CRE Q3:
+CRE Q4: Has anyone ever attempted to or succeed in breaking into your home while you were there?
+Number of times for CRE Q4:
+Approximate ages for CRE Q4:
+GD Q5: Have you ever had a serious accident at work, in a car, or somewhere else? (If yes, please specify below)
+GD Q5 Please specify:
+Number of times for GD Q5:
+Approximate ages for GD Q5:
+GD Q6: Have you ever experienced a natural disaster such as a tornado,hurricane, flood or major earthquake, etc., where you felt you or your loved ones were in danger of death or injury? (If yes, please specify below)
+GD Q6: Please specify:
+Number of times for GD Q6:
+Approximate ages for GD Q6:
+GD Q7: Have you ever experienced a 'man-made' disaster such as a train crash, building collapse, bank robbery, fire, etc., where you felt you or your loved ones were in danger of death or injury? (If yes, please specify below)
+GD Q7 Please specify:
+Number of times for GD Q7:
+Approximate ages for GD Q7:
+GD Q8: Have you ever been exposed to dangerous chemicals or radioactivity that might threaten your health?
+Number of times for GD Q8;
+Approximate ages for GD Q8:
+GD Q9: Have you ever been in any other situation in which you were seriously injured? (If yes, please specify below)
+GD Q9 Please specify:
+Number of times for GD Q9:
+Approximate ages for GD Q9:
+GD Q10: Have you ever been in any other situation in which you feared you might be killed or seriously injured? (If yes, please specify below)
+GD Q10 Please specify:
+Number of times for GD Q10:
+Approximate ages for GD Q10:
+GD Q11:Have you ever seen someone seriously injured or killed? (If yes, please specify who below)
+GD Q11 Please specify:
+Number of times for GD Q11:
+Approximate ages for GD Q11:
+QD Q12:Have you ever seen dead bodies (other than at a funeral) or had to handle dead bodies for any reason? (If yes, please specify below)
+GD Q12 Please specify:
+Number of times for GD Q12:
+Approximate ages for GD Q12:
+GD Q13:Have you ever had a close friend or family member murdered, or killed by a drunk driver? (If yes, please specify relationship [e.g., mother, grandson, etc.] below)
+GD Q13 Please specify:
+Number of times for GD Q13:
+Approximate ages for GD Q13:
+GD Q14:Have you ever had a spouse, romantic partner, or child die? (If yes,please specify relationship below)
+GD Q14 Please specify:
+Number of times for GD Q14:
+Approximate ages for GD Q14:
+GD Q15: Have you ever had a serious or life-threatening illness? (If yes, please specify below)
+GD Q15 Please specify:
+Number of times for GD Q15:
+Approximate ages for GD Q15:
+GD Q16: Have you ever received news of a serious injury, life-threatening illness, or unexpected death of someone close to you? (If yes, please indicate below)
+GD Q16 Please specify:
+Number of times for GD Q16:
+Approximate ages for GD Q16:
+GD Q17: Have you ever had to engage in combat while  in military service in an official or unofficial war zone? (If yes, please indicate where below)
+GD Q17 Please specify:
+Number of times for GD Q17:
+Approximate ages for GD Q17:
+PSE Q18: Has anyone ever made you have intercourse or oral or anal sex against your will? (If yes, please indicate nature of relationship with person [e.g., stranger, friend, relative, parent, sibling] below)
+PSE Q18 Please specify:
+Number of times for PSE Q18:
+Approximate ages for PSE Q18:
+PSE Q19: Has anyone ever touched private parts of your body, or made you touch theirs, under force or threat? (If yes, please indicate nature of relationship with person [e.g., stranger, friend, relative, parent,  sibling] below)
+PSE Q19 Please specify:
+Number of times for PSE Q19:
+Approximate ages for PSE Q19:
+PSE Q20:Other than incidents mentioned in Questions 18 and 19, have there been any other situations in which another person tried to force you to have an unwanted sexual contact?
+PSE Q20 Please specify:
+Number of times for PSE Q20:
+Approximate ages for PSE Q20:
+PSE Q21: Has anyone, including family members or friends, ever attacked you with a gun, knife, or some other weapon?
+PSE Q21 Please specify:
+Number of times for PSE Q21:
+Approximate ages for PSE Q21:
+PSE Q22: Has anyone, including family members or friends, ever attacked you without a weapon and seriously injured you?
+PSE Q22 Please specify:
+Number of times for PSE Q22 :
+Approximate ages for PSE Q22:
+PSE Q23: Has anyone in your family ever beaten, spanked, or pushed you hard enough to cause injury?
+Number of times for PSE Q23:
+Approximate ages for PSE Q23:
+PSE Q24: Have you experienced any other extraordinarily stressful situation or event that is not covered above? (If yes, please specify below)
+PSE Q24 Please specify:
+Number of times for PSE Q24 :
+Approximate ages for PSE Q24 :
+Complete?
+Was an MRI completed for this subject?
+Date of MRI
+Localizer
+1 SpinEchoFieldMap_RL_BIC_v2
+1 SpinEchoFieldMap_LR_BIC_v2
+BIAS_BC
+BIAS_32ch
+1 rfMRI_REST_RL_BIC_v2_SBRef
+1 rfMRI_REST_RL_BIC_v2
+1 rfMRI_REST_LR_BIC_v2_SBRef
+1 rfMRI_REST_LR_BIC_v2
+2 SpinEchoFieldMap_RL_BIC_v2
+2 SpinEchoFieldMap_LR_BIC_v2
+2 rfMRI_REST_RL_BIC_v2_SBRef
+2 rfMRI_REST_RL_BIC_v2
+2 rfMRI_REST_LR_BIC_v2_SBRef
+2 rfMRI_REST_LR_BIC_v2
+HPC Nback_SBRef
+HPC Nback
+T1w_MPR_BIC_v1
+T2w_SPC_BIC_v1
+DWI_dir90_RL_SBRef
+DWI_dir90_RL
+DWI_dir90_LR_SBRef
+DWI_dir90_LR
+DWI_dir91_RL_SBRef
+DWI_dir91_RL
+DWI_dir91_LR_SBRef
+DWI_dir91_LR
+If there are repeated scans, please indicate reason for repeat and series numbers.
+Complete?
+Has this instrument been collected?
+Have you ever had a panic attack, when you suddenly felt frightened or anxious, or suddenly developed a lot of physical symptoms?
+Were you ever afraid of going out of the house alone, being in crowds, standing in a line, or traveling on buses or trains?
+Is there anything that you have been afraid to do or felt uncomfortable doing in front of other people, like speaking, eating, or writing?
+Are there any other things that you have been especially afraid of, like flying, seeing blood, getting a shot, heights, closed places, or certain kinds of animals or insects?
+Have you been bothered by thoughts that didn't seem reasonable, and kept coming back to you even when you tried not to have them?
+Is there anything that you have to do over and over again and can't resist doing, such as washing your hands again and again, counting up to a certain number, or checking something several times to make sure that you've done it right?
+Over the last six months, have you been particularly nervous or anxious?
+Has there been any time in your life when you had five or more drinks (beer, wine, or liquor) on one occasion?
+Have you ever used street drugs?
+Have you ever gotten 'hooked' on a prescribed medicine or taken a lot more of it than you were supposed to?
+Have you ever had a time when you weighed much less than other people thought you ought to weigh?
+Have you often had times when your eating was out of control?
+Have you ever had a period of time when you felt depressed or down most of the day, nearly every day?
+Have you lost interest or pleasure in things that you usually enjoyed?
+Have you had any thoughts about hurting or killing yourself?
+Has there ever been a period of time when you felt so good, 'high,' or hyper that other people thought you weren't your normal self?
+Have you ever had a period when you were so irritable that you shouted at people or started fights or arguments?
+Have you ever heard things that other people couldn't hear, such as noises or the voices of people talking or whispering?
+Has it ever seemed like you were receiving special messages from the TV, radio, or newspaper, or from the way things were arranged around you?
+Have you ever experienced a very frightening or life-threatening situation like a major disaster, serious accident, fire, combat, physical assault, rape, sexual abuse, or seeing another person killed or badly hurt?
+Over the years, have you often been physically sick or had to go to the doctor because you weren't feeling well?
+Do you worry much about your physical health, or have you been told that you worry too much about it?
+Have you been very bothered by a part of your body, or an aspect of your appearance?
+Do you have any concerns regarding your sexual health, performance, interest, or enjoyment?
+Complete?
+Has this instrument been collected?
+Sex
+DOB
+Age
+What kind of work do you do?
+Are you working now?
+How are you supporting yourself?
+Has there ever been a period of time you were unable to work or go to school?
+Why was that?
+Have you been in any kind of treatment in the past month?
+When was the first time you saw someone for psychiatric illness?
+What was your diagnosis?
+What treatment or medications did you recieve?
+What about treatment for drugs or alcohol?
+Have you ever been a patient in a psychiatric hospital?
+If hospitalized more than five times, how many?
+Have you ever been in a hospital for treatment of a medical problem?
+Why were you hospitalized?
+Any problems this past month?
+If yes, what problems?
+What has your mood been like?
+Complete?
+Primary Diagnosis Code:
+Primary Diagnosis Descriptive:
+Secondary Diagnosis Code:
+Secondary Diagnosis Descriptive:
+Tertiary Diagnosis Code:
+Tertiary Diagnosis Descriptive:
+Quaternary Diagnosis Code:
+Quaternary Diagnosis Descriptive:
+Quinary Diagnosis Code:
+Quinary Diagnosis Descriptive:
+GAF Score:
+Is there a mood diagnosis?
+If yes, provide number of epsiodes for depression lifetime.
+If yes, provide number of manic episodes lifetime.
+Is there a history of substance use?
+Is there more than one drug of choice (including alcohol)?
+Provide drug and length of use in months (ie cocaine 36 months)
+Provide drug and length of use in months (ie cocaine 36 months)
+Provide drug and length of use in months (ie cocaine 36 months)
+Provide drug and length of use in months (ie cocaine 36 months)
+Provide drug and length of use in months (ie cocaine 36 months)
+Current Cannabis Use
