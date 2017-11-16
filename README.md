@@ -37,7 +37,7 @@ In the first step, we get the data in BIDS format.
         - Run the following in an interactive session:
 
                     cd $DICOMDIR/import
-                    wget http://olinnidb.org/download/NIDB-1380.zip
+                    wget http://olinnidb.org/download/NIDB-XXXX.zip
                         (replace with download link)
 
             (I wrote a script earlier, but the download slowed down after a while and timed out, so it's better to do it in an interactive session)
