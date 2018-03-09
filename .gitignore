@@ -1,0 +1,6 @@
+*.nii.gz
+*.pyc
+.sync-config.cson
+script.sh
+99_archive/
+misc/

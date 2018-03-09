@@ -1,0 +1,97 @@
+[
+    {
+        "problem": "repeats_handled",
+        "subjects":["S9916API", "S5491MQQ", "S6694ADM", "S7521ACT", "S7189DXX", "S7183UDE", "S4889AMH", "S8237AHJ", "S8770QDA", "S1077DHI", "S6359VVT", "S0851CAY", "S6632WHV", "S3479LVP", "S3641CGP", "S6226TYN", "S5318QLP", "S4075HDQ", "S1197RDU", "S5839CPU", "S2608BSY", "S8692WOH", "S4765UJN", "S1772MFS", "S8048ECC", "S3601YYJ", "S7036FMN", "S1218UVF", "S8091UAR", "S3232XVO", "S2673YWR", "S8499STQ", "S4324REV", "S2529LVY", "S1802COF", "S1833LFI", "S6108RVJ", "S5056MGT", "S6774KHN", "S0904OHA", "S6690DBW", "S0446XAR", "S4492BLG", "S0509PIJ", "S1427XBN", "S5884NDS", "S1377DEU", "S8647VQI", "S2108OWF", "S4464XAJ", "S1078JSG", "S2045YOJ", "S6020NDB", "S0045WGH", "S4446TOP", "S5060SYI", "S3264EVN", "S9841CIS", "S8315JKG", "S9821QYY", "S0202XGK", "S6108UYX", "S0726KUB", "S6263LCT", "S8337TOX"],
+        "remove":{
+            "func/task-rest_acq-LR_run-1_bold":["S5884NDS","S8770QDA"],
+            "func/task-rest_acq-LR_run-1_sbref":["S5884NDS","S8770QDA"],
+            "func/task-rest_acq-LR_run-2_bold": ["S2045YOJ","S5056MGT","S8647VQI"],
+            "func/task-rest_acq-LR_run-2_sbref": ["S2045YOJ","S5056MGT","S8647VQI"],
+            "func/task-rest_acq-LR_run-3_bold": ["S2045YOJ"],
+            "func/task-rest_acq-LR_run-3_sbref": ["S2045YOJ"],
+            "func/task-rest_acq-LR_run-4_sbref": [],
+            "func/task-rest_acq-RL_run-2_bold":["S1772MFS","S2608BSY","S8770QDA"],
+            "func/task-rest_acq-RL_run-2_sbref":["S1772MFS","S2608BSY","S8770QDA"],
+            "func/task-rest_acq-RL_run-1_bold":["S3264EVN","S8770QDA"],
+            "func/task-rest_acq-RL_run-1_sbref":["S3264EVN","S8770QDA"],
+            "anat/run-1_T1w":[
+                "S1377DEU", "S0045WGH", "S6359VVT", "S0851CAY", "S6108RVJ",
+                "S1218UVF", "S0446XAR", "S4324REV", "S2045YOJ", "S5839CPU",
+                "S0904OHA", "S8048ECC", "S2108OWF", "S6020NDB", "S8499STQ",
+                "S5318QLP", "S6690DBW", "S4075HDQ", "S0202XGK", "S9916API",
+                "S6263LCT", "S4765UJN"
+            ],
+            "anat/run-1_T2w":[
+                "S0851CAY", "S6108RVJ", "S0509PIJ", "S4446TOP", "S1772MFS",
+                "S3479LVP", "S1078JSG", "S2673YWR", "S8237AHJ", "S5839CPU",
+                "S3232XVO", "S0904OHA", "S5056MGT", "S6632WHV", "S4889AMH",
+                "S6774KHN", "S4492BLG", "S7036FMN", "S1077DHI", "S9916API",
+                "S4765UJN", "S1833LFI", "S6108UYX","S5418INF"],
+            "anat/run-2_T2w":["S0509PIJ","S6694ADM"],
+            "dwi/acq-dir90LR_run-1_dwi":[
+                "S8315JKG","S1802COF","S3641CGP","S4464XAJ","S5491MQQ",
+                "S7183UDE"],
+            "dwi/acq-dir90LR_run-1_sbref":[
+                "S8315JKG","S1802COF","S3641CGP","S4464XAJ","S5491MQQ",
+                "S7183UDE"],
+            "dwi/acq-dir90RL_run-1_dwi":[
+                "S8337TOX","S1427XBN","S3601YYJ","S4464XAJ","S5491MQQ",
+                 "S6108UYX","S3543JIU"
+                ],
+            "dwi/acq-dir90RL_run-1_sbref":[
+                "S8337TOX","S1427XBN","S3601YYJ","S4464XAJ","S5491MQQ",
+                "S3232XVO", "S6108UYX","S3543JIU"
+                ],
+            "dwi/acq-dir90RL_run-2_sbref":[
+                "S6108UYX"
+                ],
+            "dwi/acq-dir91LR_run-1_dwi":[
+                "S9821QYY","S1197RDU","S2529LVY","S5060SYI","S7189DXX",
+                "S8091UAR","S8692WOH","S6450UUI"],
+            "dwi/acq-dir91LR_run-1_sbref":[
+                "S9821QYY","S1197RDU","S2529LVY","S5060SYI","S7189DXX",
+                "S8091UAR","S8692WOH","S6450UUI"],
+            "dwi/acq-dir91RL_run-1_dwi":["S9841CIS","S0446XAR","S7521ACT",
+                "S6226TYN"
+            ],
+            "dwi/acq-dir91RL_run-1_sbref":["S0726KUB","S0446XAR","S7521ACT",
+                "S6226TYN","S9841CIS","S1543TWL"]
+        },
+        "exclude": false
+    },
+    {
+        "problem": "ignore",
+        "subjects": [
+            "S9905QEN","S8886NLT","S2800WSU","S2059FAY","S4277MYS","S3847DYG", 
+            "S4428VOX","S6716YSQ","S6027QUG","S1318RPT","S2119LAL","S9245RYS","S7213UYR",
+            "S8555KAD","S9608MSH","S3613IXV","S5332RML","S0023OXB",
+            "S4677LFE","S6954XGJ","S0924OXW","S4574FRF","S4654USL",
+            "S0056GHW","S5048OYI","S6850DQF","S8843FXP","S8199BBI","S0576VBM",
+            "S9368OMW","S2499DRQ","S9992POE","S1406LMM",
+            "S5171RCJ","S3911OYN","S6463DJD","S0492QGT","S6450UUI",
+            "S1455AYX","S7090NWW","S5555OJD","S2232WAX","S9077TOY","S0497TVN",
+            "S3840VML","S6477YYO","S2213FRB","S6751CLT","S8933FQK","S5067CIG","S1370ERP",
+            "S8364AVD","S9534HQI","S5679EFP","S6875PCT","S7798IAA",
+            "S2669GLH","S0973TQS","S4787UYU","S9555SKM","S8270FPB",
+            "S5588ORR","S2643NUM","S8818RYC","S0606LLL","S3731AUW","S7863YCH",
+            "S7683IQE"
+        ],
+        "exclude": false
+    },
+    {
+        "problem": "incomplete",
+        "subjects": [
+            "S9999KVF", "S7936HGN", "S8758BIN", "S1799AJW", "S9075LKP",
+            "S3541CBH", "S4038WEB", "S4088MAS", "S8502TPD", "S8770QDA",
+            "S7716VMD"
+        ],
+        "exclude": false
+    },
+    {
+        "problem": "see note",
+        "subjects": [
+            "S2501LHE", "S9047GKW", "S9952JIA", "S1206JPE", "S5846DUR", "S5418INF"
+        ],
+        "exclude": true
+    }
+]

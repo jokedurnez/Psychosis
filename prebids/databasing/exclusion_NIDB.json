@@ -1,0 +1,23 @@
+[
+    {
+        "reason": "exist double",
+        "remove" :  ["S7510LXD","S1778LHR","S3690RHU", "S0784SQF","S3540EUP", "S7525VYE", "S9650KBD", "S7795BWP", "S8848XEU", "S1516JWK"],
+        "alternate" : ["S6086STG","S2531WXG", "S2673YWR", "S6263LCT","S0896XRN","S3601YYJ",  "S9001JIS", "S2600PKA",  "S2073HRA","S7455FRR"]
+    },
+    {
+        "reason": "typo",
+        "pairs": {
+            "663":"S3581IVG",
+            "S54487JOA":"S4487JOA",
+            "S3533YQE":"S3533YQR",
+            "S384SWL":"S3845WLQ",
+            "S2941": "S2941FQD",
+            "SI722CER": "S1722CER",
+            "S7464HO": "S7464LHO"
+        }
+    },
+    {
+        "reason": "incomplete and no link to redcap",
+        "remove": ["S1404OVR"]
+    }
+]

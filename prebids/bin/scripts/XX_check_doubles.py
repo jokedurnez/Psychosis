@@ -1,0 +1,62 @@
+expected = {
+    "anat": [
+        "run-1_T1w.nii.gz",
+        "run-1_T1w.json",
+        "run-1_T2w.nii.gz",
+        "run-1_T2w.json"
+        ],
+    "dwi": [
+        'acq-dir90LR_run-1_dwi.bval',
+        'acq-dir90LR_run-1_dwi.bvec',
+        'acq-dir90LR_run-1_dwi.json',
+        'acq-dir90LR_run-1_dwi.nii.gz',
+        'acq-dir90LR_run-1_sbref.json',
+        'acq-dir90LR_run-1_sbref.nii.gz',
+        'acq-dir90RL_run-1_dwi.bval',
+        'acq-dir90RL_run-1_dwi.bvec',
+        'acq-dir90RL_run-1_dwi.json',
+        'acq-dir90RL_run-1_dwi.nii.gz',
+        'acq-dir90RL_run-1_sbref.json',
+        'acq-dir90RL_run-1_sbref.nii.gz',
+        'acq-dir91LR_run-1_dwi.bval',
+        'acq-dir91LR_run-1_dwi.bvec',
+        'acq-dir91LR_run-1_dwi.json',
+        'acq-dir91LR_run-1_dwi.nii.gz',
+        'acq-dir91LR_run-1_sbref.json',
+        'acq-dir91LR_run-1_sbref.nii.gz',
+        'acq-dir91RL_run-1_dwi.bval',
+        'acq-dir91RL_run-1_dwi.bvec',
+        'acq-dir91RL_run-1_dwi.json',
+        'acq-dir91RL_run-1_dwi.nii.gz,'
+        'acq-dir91RL_run-1_sbref.json',
+        'acq-dir91RL_run-1_sbref.nii.gz'
+        ],
+    "fmap": [
+        'dir-1_epi.json',
+        'dir-1_epi.nii.gz',
+        'dir-2_epi.json',
+        'dir-2_epi.nii.gz'
+    ],
+    "func": [
+        'task-nback_run-1_bold.json',
+        'task-nback_run-1_bold.nii.gz',
+        'task-nback_run-1_sbref.json',
+        'task-nback_run-1_sbref.nii.gz',
+        'task-rest_acq-LR_run-1_bold.json',
+        'task-rest_acq-LR_run-1_bold.nii.gz',
+        'task-rest_acq-LR_run-1_sbref.json',
+        'task-rest_acq-LR_run-1_sbref.nii.gz',
+        'task-rest_acq-LR_run-2_bold.json',
+        'task-rest_acq-LR_run-2_bold.nii.gz',
+        'task-rest_acq-LR_run-2_sbref.json',
+        'task-rest_acq-LR_run-2_sbref.nii.gz',
+        'task-rest_acq-RL_run-1_bold.json',
+        'task-rest_acq-RL_run-1_bold.nii.gz',
+        'task-rest_acq-RL_run-1_sbref.json',
+        'task-rest_acq-RL_run-1_sbref.nii.gz',
+        'task-rest_acq-RL_run-2_bold.json',
+        'task-rest_acq-RL_run-2_bold.nii.gz',
+        'task-rest_acq-RL_run-2_sbref.json',
+        'task-rest_acq-RL_run-2_sbref.nii.gz'
+    ]
+    }
