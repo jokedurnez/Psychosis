@@ -3,3 +3,4 @@
 .sync-config.cson
 script.sh
 99_archive/
+misc/
