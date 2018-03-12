@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --time=30:00:00
 #SBATCH --mem=32GB
-#SBATCH -p hns,normal
+#SBATCH -p hns,normal,russpold
 #SBATCH --output=logs/PREP.%a.txt
 #SBATCH --error=logs/PREP.%a.txt
 #SBATCH --mail-type=FAIL

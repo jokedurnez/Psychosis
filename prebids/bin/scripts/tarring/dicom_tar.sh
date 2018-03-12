@@ -5,7 +5,6 @@
 #SBATCH --error=tar.err
 #SBATCH --time=23:00:00
 #SBATCH --mem=64GB
-#SBATCH --qos=russpold
 #SBATCH -p russpold,hns,normal
 #SBATCH --mail-user=joke.durnez@gmail.com
 #SBATCH --mail-type=ALL   # email me when the job starts
