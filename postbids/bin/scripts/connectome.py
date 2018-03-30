@@ -39,13 +39,21 @@ keys = os.listdir(cleandir)
 #keys = np.array([x.split("_bold") for x in keys if 'task' in x]).flatten()
 keys = np.unique([x for x in keys if 'task' in x]).tolist()
 
+prepdir = os.environ.get('PREPDIR')
+subprep = os.path.join(prepdir,"sub-"+subject,"MNINonLinear/Results")
+
 print(datetime.now().strftime("%a %b %d %H:%M:%S"))
 print("creating connectomes")
 
 for gsr in ["_gsr",""]:
     for key in keys:
         print("extracting session "+key)
-        # key = keys[0]
+
+        prepfile = os.path.join(subprep,key,key+".nii.gz") #original file
+        totaltp = nib.load(prepfile).shape[3]
+        if totaltp <= 10:
+            continue
+
         imgfile = os.path.join(cleandir,key,key+'_removed_first10_despiked_masked_mvmreg%s_cmpc_bp.nii.gz'%gsr)
 
         ##################

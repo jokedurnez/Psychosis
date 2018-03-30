@@ -4,11 +4,11 @@ import os
 
 def get_tables(table):
 # read in redcap
-    RC = pd.read_csv(os.environ.get(table),low_memory=False)
+    RC = pd.read_csv(os.environ.get(table),low_memory=False,sep="\t")
     RCinstr = redcap_instruments(RC)
 
     # read in labels of RC
-    text_file = open(os.path.join(os.environ.get("CODEDIR"),"06_predictive_model/utils/neuropsych_labels.txt"),'r')
+    text_file = open(os.path.join(os.environ.get("CODEDIR"),"postbids/notebooks/utils/neuropsych_labels.txt"),'r')
     lines = text_file.read().split("\n")
 
     labeltable = pd.DataFrame([RC.columns,lines])
@@ -37,7 +37,7 @@ def subset_tables(table=None,include=None,RC=None, labeltable=None):
             'ldps',
             'family_history_assessment',
             'ctq',
-            'thq',
+            # 'thq',
             'scid',
             'scid_face'
             ]
@@ -53,6 +53,8 @@ def subset_tables(table=None,include=None,RC=None, labeltable=None):
 
     #subset subjectstable and standardise
     FA_table = RC[labeltable.code]
+    FA_table = FA_table.replace("n/a",np.nan)
+    FA_table = FA_table.astype('float')
     FA_table = (FA_table - FA_table.mean()) / (FA_table.max() - FA_table.min())
     FA_table = FA_table.fillna(0)
 
@@ -122,7 +124,7 @@ def get_measures_subset(include=None):
             'ldps', #lifetime dimensions of psychosis scale
             'family_history_assessment',
             'ctq', #childhood trauma questionnaire
-            'thq', #traima history questionnaire
+            # 'thq', #traima history questionnaire
             'scid', # structured clinical interview for DSM-5
             'scid_face'
             ]

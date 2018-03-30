@@ -21,6 +21,7 @@ import nibabel as nib
 import numpy as np
 import argparse
 import nilearn
+import shutil
 import sys
 import os
 
@@ -34,11 +35,13 @@ from postbids.rest import nodes, reho, utils
 subject = os.environ.get("SUBJECT")
 
 # if output already exist: overwrite?
-redo = False
+redo = True
 
 # load environment variables for psychosis PROJECT
 
 cleandir = os.path.join(os.environ.get('CONDIR'),"sub-%s"%subject)
+if os.path.exists(cleandir) and redo:
+    shutil.rmtree(cleandir)
 if not os.path.exists(cleandir):
     os.mkdir(cleandir)
 prepdir = os.environ.get('PREPDIR')
@@ -94,6 +97,8 @@ for run in keys:
 
     #action
     totaltp = nib.load(infile).shape[3]
+    if totaltp <= 10:
+        continue
     fslroi = fsl.ExtractROI(in_file=infile,roi_file=outfile,t_min=10,t_size=totaltp-10)
     if not os.path.exists(outfile) or redo:
         fslroi.run()
@@ -162,11 +167,13 @@ for run in keys:
     longmovementfile = os.path.join(subprep,run,"Movement_Regressors.txt")
     movementfile = os.path.join(subprep,run,"Movement_Regressors_removed_first10.txt")
     movement = pd.read_csv(longmovementfile,delim_whitespace=True,header=None,engine='python')
+    movement = movement.iloc[range(totaltp)]
     movementsq = movement**2
     movement = pd.concat([movement,movementsq],axis=1)
     movement = movement.drop(range(10))
     movement = movement.reset_index()
     movement = movement.drop('index',1)
+    movement = movement.fillna(0)
     if not os.path.exists(movementfile) or redo:
         movement.to_csv(movementfile,index=False,header=None)
 

@@ -1,20 +1,18 @@
 #!/bin/bash
-#SBATCH --time=8:00:00
+#SBATCH --time=3:00:00
 #SBATCH --mem=16GB
-#SBATCH -p hns,normal
+#SBATCH -p hns,normal,russpold
 #SBATCH --output=logs/CLEAN.%a.txt
 #SBATCH --error=logs/CLEAN.%a.txt
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=joke.durnez@gmail.com
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=2
 #SBATCH --ntasks=1
 
 source $HOME/Psychosis/config_sherlock.sh
 
 #select subject
-if [ -z "$SUBJECT" ]; then
-    SUBJECT=$(singularity exec -B $OAK:$OAK -B $SCRATCH:$SCRATCH $CLEANSINGULARITY python $CODEDIR/postbids/bin/scripts/grab_subject_id.py 2>&1)
-fi
+export SUBJECT=$(singularity exec -B $OAK:$OAK $CLEANSINGULARITY python $CODEDIR/postbids/bin/scripts/grab_subject_id.py 2>&1)
 unset PYTHONPATH
 
 set -e

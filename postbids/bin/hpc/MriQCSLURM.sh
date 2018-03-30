@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --time=24:00:00
-#SBATCH --mem=32GB
+#SBATCH --mem=16GB
 #SBATCH -p hns,normal,russpold
 #SBATCH --output=logs/QC.%a.txt
 #SBATCH --error=logs/QC.%a.txt
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=joke.durnez@gmail.com
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=2
 #SBATCH --ntasks=1
 
 source $HOME/Psychosis/config_sherlock.sh

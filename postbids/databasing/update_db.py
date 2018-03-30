@@ -25,6 +25,7 @@ sys.path.append(os.environ.get("CODEDIR"))
 from prebids.databasing import psydb
 from prebids.dicom import dicom
 
+# functions to check if bids is complete
 def check_rest_complete(protocols,UID):
     incomplete = False
     funcdir = os.path.join(os.environ.get("BIDSDIR"),"sub-%s"%UID,'func')
@@ -118,6 +119,7 @@ def check_bids_complete(PSYDB):
     print("---------------------------------------------")
     return donotproceed
 
+# check which analyses are done (folders exist, so should be verified with logs)
 def check_analyses(PSYDB):
     dicomdir = os.environ.get("DICOMDIR")
     bidsdir = os.environ.get("BIDSDIR")
@@ -212,9 +214,11 @@ def check_analyses_todo(participants):
         qc_done = os.listdir(os.path.join(os.environ.get("MRIQCDIR"),'derivatives'))
         qc_done = list(np.unique([x.split("_")[0] for x in qc_done]))
     prep_done = os.listdir(os.environ.get("PREPDIR"))
+    con_done = os.listdir(os.environ.get("CONDIR"))
     participants['todo_qc'] = 0
     participants['todo_prep'] = 0
     participants['todo_dwi'] = 0
+    participants['todo_rest'] = 0
 
     for idx,row in participants.iterrows():
         check = check_bids_modalities(row.UID)
@@ -223,12 +227,25 @@ def check_analyses_todo(participants):
             participants.at[idx,'todo_qc'] = 1
         if not 'sub-%s'%row.UID in prep_done and checks(check,'todo_prep'):
             participants.at[idx,'todo_prep'] = 1
+        if not 'sub-%s'%row.UID in con_done and checks(check,'todo_rest'):
+            participants.at[idx,'todo_rest'] = 1
         if checks(check,'todo_dwi'):
             participants.at[idx,'todo_dwi'] = 1
 
-    qc_print = make_slurm_ready(np.where(participants['todo_qc']==1)[0])
+    out = {
+        'qc':list(np.where(participants['todo_qc']==1)[0]),
+        'prep':list(np.where(participants['todo_prep']==1)[0]),
+        'dwi':list(np.where(participants['todo_dwi']==1)[0]),
+        'rest':list(np.where(participants['todo_rest']==1)[0])
+        }
+
+    qc_print = make_slurm_ready(out['qc'])
     print('Run MRIQC on the following indexes: %s'%qc_print)
-    prep_print = make_slurm_ready(np.where(participants['todo_prep']==1)[0])
+    prep_print = make_slurm_ready(out['prep'])
     print('Run preprocessing on the following indexes: %s'%prep_print)
-    dwi_print = make_slurm_ready(np.where(participants['todo_dwi']==1)[0])
-    print('Run dwi on the following indexes: %s'%dwi_print)
+    dwi_print = make_slurm_ready(out['dwi'])
+    print('Run dwi on the following indexes (note that there s not a good check at this point): %s'%dwi_print)
+    con_print = make_slurm_ready(out['rest'])
+    print("Run clean on the following indexes: %s"%con_print)
+
+    return out

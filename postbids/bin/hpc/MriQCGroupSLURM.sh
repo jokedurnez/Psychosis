@@ -13,4 +13,6 @@ source $HOME/Psychosis/config_sherlock.sh
 
 singularity run -B $OAK:$OAK $MRIQCSINGULARITY $BIDSDIR $MRIQCDIR -w $LOCAL_SCRATCH group
 
+cd /oak/stanford/groups/russpold/data/Psychosis/derivatives/misc
+
 singularity exec -B $OAK:$OAK $MRIQCSINGULARITY mriqc_clf --load-classifier -X $MRIQCDIR/T1w.csv -vvv

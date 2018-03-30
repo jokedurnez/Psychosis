@@ -20,18 +20,21 @@ from prebids.databasing import psyrc
 participants = pd.read_csv(os.path.join(os.environ.get("CLEANTABLE")),sep='\t')
 
 participants = update_db.add_mriqc(participants)
+#participants['MRIQC_score']=0
 
-# RC = pd.read_csv(os.environ.get("REDCAPTABLE"),low_memory=False)
-# RCcols = [x for sublist in psyrc.redcap_instruments(RC).values() for x in sublist]
-# cols = (set(participants.columns) - set(RCcols) - set(['index'])).union(set(['scan_id','subject_id']))
-# participants.loc[:,list(cols)]
-
+# check which folders exist
 participants = update_db.check_analyses(participants)
 for idx,row in participants.iterrows():
+    # add to db which modalities exist
     checks = update_db.check_bids_modalities(row.UID)
     for k,v in checks.iteritems():
         participants.at[idx,k] = v
 
-# check mriqc
+# check if all bids is complete
 bidsincomplete = update_db.check_bids_complete(participants)
-update_db.check_analyses_todo(participants)
+# check which analyses should be done
+out = update_db.check_analyses_todo(participants)
+
+participants = participants.reset_index(drop=True)
+participants = participants.fillna("n/a")
+participants.to_csv(os.environ.get("CLEANTABLE"),sep="\t",index=False)

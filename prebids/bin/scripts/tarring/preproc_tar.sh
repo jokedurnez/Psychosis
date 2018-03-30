@@ -5,11 +5,12 @@
 #SBATCH --error=tar.err
 #SBATCH --time=23:00:00
 #SBATCH --mem=64GB
-#SBATCH --qos=russpold
-#SBATCH -p russpold
+#SBATCH -p hns,normal
+#SBATCH --cpus-per-task=16
 #SBATCH --mail-user=joke.durnez@gmail.com
 #SBATCH --mail-type=ALL   # email me when the job starts
 
-source /scratch/PI/russpold/data/psychosis/01_code/config_sherlock.sh
+source /home/jdurnez/Psychosis/config_sherlock.sh
+source /share/PI/russpold/software/setup_all.sh
 
-python $PSYDIR/01_code/misc/preproc_tar.py
+python $CODEDIR/prebids/bin/scripts/tarring/preproc_tar.py
