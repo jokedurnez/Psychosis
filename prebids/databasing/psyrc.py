@@ -32,21 +32,21 @@ def redcap_instruments(RC):
     print("    ...getting redcap instruments...")
     # extract and organise redcap variables
     RC_instruments = {
-        "subject_status": RC.columns.values[:12].tolist(),
-        "health_screening": RC.columns.values[12:130].tolist(),
-        "legal_issues": RC.columns.values[130:203].tolist(),
-        "wasi_2scale": RC.columns.values[203:211].tolist(),
-        "bprse": RC.columns.values[211:238].tolist(),
-        "hamd": RC.columns.values[238:263].tolist(),
-        "ymrs": RC.columns.values[263:277].tolist(),
-        "ldps_c26a": RC.columns.values[277:346].tolist(),
-        "family_history_assessment": RC.columns.values[346:624].tolist(),
-        "ctq": RC.columns.values[624:654].tolist(),
-        'THQ': RC.columns.values[654:746].tolist(),
-        "mri": RC.columns.values[746:777].tolist(),
-        "scid": RC.columns.values[777:803].tolist(),
-        "scid_face_page": RC.columns.values[803:825].tolist(),
-        "scid_axis_diagnosis": RC.columns.values[825:849].tolist()
+        "subject_status": RC.columns.values[:13].tolist(),
+        "health_screening": RC.columns.values[13:131].tolist(),
+        "legal_issues": RC.columns.values[131:204].tolist(),
+        "wasi_2scale": RC.columns.values[204:212].tolist(),
+        "bprse": RC.columns.values[212:239].tolist(),
+        "hamd": RC.columns.values[239:264].tolist(),
+        "ymrs": RC.columns.values[264:278].tolist(),
+        "ldps_c26a": RC.columns.values[278:347].tolist(),
+        "family_history_assessment": RC.columns.values[347:625].tolist(),
+        "ctq": RC.columns.values[625:655].tolist(),
+        'THQ': RC.columns.values[655:747].tolist(),
+        "mri": RC.columns.values[747:778].tolist(),
+        "scid": RC.columns.values[778:804].tolist(),
+        "scid_face_page": RC.columns.values[804:826].tolist(),
+        "scid_axis_diagnosis": RC.columns.values[826:850].tolist()
     }
     return RC_instruments
 
