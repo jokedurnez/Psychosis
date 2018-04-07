@@ -15,6 +15,8 @@ import shutil
 import json
 import os
 import re
+import pwd
+import grp
 
 def change_foldername(ID,subdir,replace):
     BIDSDIR = os.environ.get("BIDSDIR")
